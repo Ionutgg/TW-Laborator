@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  background-color: #1d1e22;
+}
+#parallax {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/pics/puppy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50% 50%;
+}
+h2 {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Arial";
+  text-transform: uppercase;
+  opacity: .2;
+  font-size: 70px;
+}
+
